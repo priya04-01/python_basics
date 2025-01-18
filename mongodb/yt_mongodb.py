@@ -1,4 +1,3 @@
-from bson import ObjectId
 import pymongo
 Client =pymongo.MongoClient("mongodb+srv://youtubepy:Pr7089819965@cluster0.meobw.mongodb.net/",ssl=True)
 db=Client["ytmanager"]
